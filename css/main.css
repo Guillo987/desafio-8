@@ -1,0 +1,106 @@
+header {
+    background-image: url('../img/banner1.jpeg');
+}
+
+h1, .subtitulo {
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: large;
+}
+
+body {
+    background-image: linear-gradient(to right, #9ae8bb, whitesmoke);
+    overflow-x: hidden;
+}
+
+.contenedorIndex {
+    background-image: url('../img/fotoHome.jpeg');
+    background-size: cover;
+        background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.saludoIndex, .parrafoIndex {
+    color: white;
+    padding-top: 8rem;
+}
+
+.contenedorArt {
+    margin-top: 55rem;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.iconos, img {
+    height: 35px;
+    font-weight: 35rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.fotoPsi {
+    display: none;
+}
+
+footer {
+    background-image: url('../img/banner1.jpeg');
+}
+
+.hFooter {
+    font-size: smaller;
+    padding-top: 2rem;
+}
+
+/*quienes-somos*/
+
+.nombrePsi {
+    display: none;
+}
+
+/*nuestros-articulos*/
+
+.nombreArt {
+    font-size: 1.2rem;
+}
+
+.otrosP {
+    margin-bottom: 4rem;
+}
+
+.listaArt, .listaFaq {
+    display: none;
+}
+
+/*preguntas-frecuentes*/
+
+.faq {
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+
+/*Media queries*/
+
+@media only screen and (min-width: 1024px) {
+
+.fotoPsi {
+    display: block;
+    height: 27rem;
+    width: 25rem;
+}
+
+.listaArt, .listaFaq {
+    display: block;
+    margin-top: 15rem;
+}
+
+.nombrePsi {
+    display: block;
+    margin-right: 5rem;
+}
+
+}
